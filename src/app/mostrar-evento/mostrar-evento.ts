@@ -8,10 +8,12 @@ import { Component } from '@angular/core';
   styleUrl: './mostrar-evento.css',
 })
 export class MostrarEvento {
+  mensaje: string = '';
+
   resetearMensaje() {
-    alert('resetaer mostrado');
+    this.mensaje = '';
   }
   mostrarMensaje() {
-    alert('Mensaje mostrado');
+    this.mensaje = '¡Hola has echo click en el boton';
   }
 }
