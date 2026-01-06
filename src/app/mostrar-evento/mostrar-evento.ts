@@ -8,6 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './mostrar-evento.css',
 })
 export class MostrarEvento {
+  resetearMensaje() {
+    alert('resetaer mostrado');
+  }
   mostrarMensaje() {
     alert('Mensaje mostrado');
   }
